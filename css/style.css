@@ -1,0 +1,163 @@
+body { 
+	background-color: #f8f8f8;
+}
+
+#bg-login {
+	background:url('../img/bg2.jpg') no-repeat;
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-utama{
+	margin: 0px 50px;
+	width: 100%;
+}
+
+
+.user-login-header,.login-image-main{
+	margin-top: 15px;
+}
+
+.user-login-header h1{
+	font-size: 45px;
+	color:#fff;
+}
+.user-login-header p,.last-part p{
+	color:#c9c5c7;
+}
+.user-login-header span{
+	color:#fff;
+	font-weight: 600;
+}
+.login-image-main{
+	padding: 30px;
+	background-color:#fff;
+	border-radius:5px1
+	box-shadow: 0 0 5px 0 #fff;
+}
+.user-image-section img{
+	background-color: #B56162;
+	padding:30px;
+	height:150px;
+	width:150px;
+	border-radius: 50%;
+}
+.user-login-box,.last-part{
+	padding:20px;
+}
+.user-login-box #submit,.user-login-box #submit:hover{
+	background-color: #B56162;
+	border:1px solid #B56162;
+	width: 100%;
+	color:#fff;
+	font-weight:600;
+}
+.last-part a{
+	text-decoration: none;
+	color:#B56162;
+}
+
+.box{
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 15px;
+	box-sizing: border-box;
+	margin: 10px 0px 25px 0px;
+}
+
+.box:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+#footer_bawah{
+	width: 100%;
+    height: 51px;
+    padding-left: 10px;
+    line-height: 50px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.kolom-2{
+	width: 50%;
+	min-height: 200px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.kolom-2 img{
+	border: 1px solid #f9f9f9;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.kolom-2 h3{
+	margin-bottom: 10px;
+}
+.kolom-2 h4{
+	color: #C70039;
+}
+
+.kolom-2 p {
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 14px; 
+}
+
+.kolom-4 {
+	width: 25%;
+	height: 335px;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+
+.kolom-4:hover {
+	box-shadow:  0 0 3px #999;
+}
+
+.kolom-4 img{
+	/*width: 180px;
+	height: 180px;*/
+	width: 100%;
+}
+
+.kolom-4 .nama{
+	color: #666;
+	margin-bottom: 5px;
+}
+
+.kolom-4 .harga{
+	font-weight: bold;
+	color: #C70039;
+	float: right;
+}
+
+.kolom-4 a{
+	text-decoration: none;
+}
+
+.kolom-5 {
+	width: 20%;
+	height: 100px;
+	text-align: center;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+footer{
+	width: 100%;
+    height: 51px;
+    padding-left: 10px;
+    line-height: 50px;
+    position: relative;
+    bottom: 0px;
+}
